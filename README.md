@@ -83,5 +83,3 @@ python analysis.py
   모든 그래프와 요약 통계 파일을 `output/` 폴더에 저장합니다.
 
 ---
-
-这样保存之后，只有两段命令（`pip install ...` 和 `python analysis.py`）会在小代码框里，其他都会正常排版显示，不会再整页都是代码框了。
