@@ -1,26 +1,26 @@
-
 # AI_Index와 연봉 분석 프로젝트
 
-이 프로젝트는 Stack Overflow 개발자 설문 데이터를 이용하여  
+이 프로젝트는 Stack Overflow 개발자 설문 데이터를 이용하여
 **AI 사용 강도(AI_Index)** 와 **연봉(연간 보수)** 의 관계를 분석하는 Python 코드입니다.
+
 ---
 
 ## 1. 실행 환경
 
-- Python **3.8 이상**
+* Python **3.8 이상**
 
 ### 필수 패키지
 
-- pandas  
-- numpy  
-- matplotlib  
-- statsmodels  
+* pandas
+* numpy
+* matplotlib
+* statsmodels
 
 필요한 패키지는 다음 명령으로 설치할 수 있습니다.
 
 ```bash
 pip install pandas numpy matplotlib statsmodels
-````
+```
 
 ---
 
@@ -78,6 +78,10 @@ HomeworkRepository/
 python analysis.py
 ```
 
-* `data_prep.py` 가 자동으로 호출되어 원본 설문 데이터를 정제하고,
+* `data_prep.py` 가 자동으로 호출되어 원본 설문 데이터를 정제하고
 * `analysis.py` 가 Part 1 ~ Part 5 전체 분석을 수행한 뒤
   모든 그래프와 요약 통계 파일을 `output/` 폴더에 저장합니다.
+
+---
+
+这样保存之后，只有两段命令（`pip install ...` 和 `python analysis.py`）会在小代码框里，其他都会正常排版显示，不会再整页都是代码框了。
